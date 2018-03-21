@@ -1,0 +1,205 @@
+/*按比例变化的在js里 
+	1920分辨率下
+	100px=1rem
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.sxh_clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.sxh_process_box{
+	width: 100%;
+	position: relative;
+}
+.sxh_process_main_box{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.sxh_process_main{
+	max-width: 12.00rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sxh_process_background img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.sxh_process_main_head{
+	margin-top: 1.70rem;	
+}
+.sxh_process_headExplain{
+	display: inline-block;
+	margin-top: 0.56rem;
+}
+.sxh_process_title{
+	color: #fff;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+}
+.sxh_circular{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 100%;
+	background: #fff;
+	float: left;
+	margin-top: 0.045rem;
+	margin-right: 0.18rem;
+}
+.sxh_process_headExplain p{
+	display: inline-block;
+	color: #fff;
+	font-size: 0.26rem;
+	float: left;
+	line-height: 0.26rem;
+	
+}
+.sxh_porcess_heng{
+	height: 0.04rem;
+	width: 11.07rem;
+	background: #fff;
+	margin-left: 0.50rem;
+	position: relative;
+	margin-top: 3.83rem;
+}
+.sxh_porcess_heng_ul{
+	position: absolute;
+	width: 12.00rem;
+}
+.sxh_porcess_heng_ul li{
+	width: 0.10rem;
+	height: 0.10rem;
+	background: #000;
+	border-radius: 100%;
+	float: left;
+	margin-top: -0.03rem;
+}
+.sxh_porcess_heng_ul li:nth-child(1){
+	margin-left: -0.05rem;
+}
+.sxh_porcess_heng_ul li:nth-child(2){
+	margin-left: 1.37rem;
+}
+.sxh_porcess_heng_ul li:nth-child(3){
+	margin-left: 1.54rem;
+}
+.sxh_porcess_heng_ul li:nth-child(4){
+	margin-left: 1.49rem;
+}
+.sxh_porcess_heng_ul li:nth-child(5){
+	margin-left: 1.54rem;
+}
+.sxh_porcess_heng_ul li:nth-child(6){
+	margin-left: 1.46rem;
+}
+.sxh_porcess_heng_ul li:nth-child(7){
+	margin-left: 1.49rem;
+}
+.sxh_porcess_heng_ul li:nth-child(8){
+	margin-left: 1.48rem;
+}
+
+
+
+.sxh_process_h_Top{
+	position: absolute;
+}
+.sxh_process_h_Bottom{
+	position: absolute;
+}
+.sxh_process_h_Top>div{
+	position: absolute;
+	top: -1.6rem;
+	opacity:0;
+}
+.sxh_process_h_Bottom>div{
+	position: absolute;
+	top: 0.02rem;
+	opacity:0;
+}
+.sxh_porcess_icnkongde{
+	width: 1.02rem;
+	height: 1.02rem;
+}
+.sxh_process_icnbox{
+	width: 1.02rem;
+	height: 1.02rem;
+	display: block;
+	border-radius:100%;
+	background-color: rgba(255,255,255,0);
+	transition:all 0.3s linear;
+	position: absolute;
+	margin-top: -1.02rem;
+}
+.sxh_process_icnbox:hover{
+	width: 1.12rem;
+	height: 1.12rem;
+	margin-left: -0.05rem;
+	background-color: rgba(255,255,255,1);
+	margin-top: -1.07rem;
+}
+.sxh_process_top_thing{
+	color: #fff;
+	font-size: 0.2rem;
+	position: relative;
+	line-height: 1;
+	margin-top: 0.12rem;
+	margin-bottom: 0.08rem;
+}
+.sxh_process_khDetermine{
+	font-size: 0.14rem;
+	position: absolute;
+	display: inline-block;
+	white-space:nowrap;
+	text-align: left;
+	margin-left: 0.05rem;
+	line-height:1;
+	margin-top: 0.025rem;
+}
+.sxh_process_top_people{
+	color: #fff;
+	font-size: 0.14rem;
+	white-space:nowrap;
+	line-height: 1;
+}
+.sxh_process_SignAContract{
+	margin-left: -0.51rem;
+}
+.sxh_process_ProductPrototype{
+	margin-left: 2.55rem;
+}
+.sxh_process_ResearchAndDevelopment{
+	margin-left: 5.77rem;
+}
+.sxh_process_CheckBeforeAcceptance{
+	margin-left: 8.92rem;
+}
+.sxh_process_ProjectStart{
+	left: 0.98rem;
+}
+.sxh_process_VisualMap{
+	left: 4.20rem;
+}
+.sxh_process_test{
+	left: 7.42rem;
+}
+.sxh_process_GoOnline{
+	left: 10.49rem;
+}

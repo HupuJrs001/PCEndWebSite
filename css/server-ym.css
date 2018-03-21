@@ -1,0 +1,165 @@
+
+
+.box-server{
+	width:100%;
+	height:auto;	
+	background:url("../images/two_background.png") no-repeat;
+	background-size: cover;
+}
+/* 服务模块，主体配置
+ */
+ .server-container{
+	width: 12.0rem;
+	height:auto;
+	margin:0 auto;
+	padding:0.7rem;
+	padding-top: 1.75rem;
+}
+/* 服务领域的大标题 */
+.server-area{
+	height: 0.4rem;
+
+	line-height: 0.4rem;
+	text-align: center;
+	font-size:0.4rem;
+
+	color:#666666;
+}
+/* 服务职业的小标题 */
+.server-professional{
+	margin-top:0.38rem;
+	margin-bottom:0.9rem;
+
+	height: 0.34rem;
+	line-height: 0.34rem;
+	text-align: center;
+	font-size:0.25rem;
+	color:#333333
+}
+/* 圆点 */
+.server-dolt{
+	display:inline-block;
+	width: 0.16rem;
+	height: 0.16rem;
+	background:#333;
+	border-radius:50% 50%;
+}
+/* 区域的主题内容 */
+.server-main{
+	width: 12.0rem;
+	height: 6.6rem;
+	background:url(../images/iphone.png) no-repeat 50% 40%;
+	background-size:48% 80%; 
+	
+	
+}
+ /* 服务main内容的div的公共样式 */
+.server-maindiv{
+  width: 6.0rem;
+  height: 3.3rem;
+  float:left;
+  position:relative;
+}
+/* div中的图片 */
+.server-pic{
+	position:absolute;
+	width: 1.83rem;
+	height: 1.83rem;
+	border-radius:50% 50%;
+	
+	
+}
+.server-pic img{
+    position:absolute;
+    left:0.91rem;
+    top:0.75rem;
+    transform:translate(-50%,-50%);
+	width:100%;
+	height:100%;
+}
+
+/* div中的s图片 */
+.server-spic{
+	position:absolute;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius:50% 50%;
+	background:#1e9ae9;
+	font-size:0.16rem;
+	color:white;
+	line-height:0.6rem;
+	text-align:center;
+}
+.server-word{
+	position:absolute;
+	width: 3.5rem;
+	height: 0.66rem;
+}
+
+/* 段落中上面的文字 */
+.server-word-up{
+	font-size:0.27rem;
+	font-weight:400;
+}
+/* 段落中下面的文字 */
+.server-word-down{
+	font-size:0.16rem;
+	font-weight:450;
+	color:#999999;
+}
+/* 定位 1*/
+.server-one .server-pic{
+	top:0.02rem;
+	left:0.57rem;
+}
+.server-one .server-spic{
+	top:1.7rem;
+	left:3.12rem;
+}
+.server-one .server-word{
+    top:0.65rem
+  ;
+	left:2.58rem;
+}
+/* 定位 2*/
+.server-two .server-pic{
+	top:1.03rem;
+	right:0.15rem;
+}
+.server-two .server-spic{
+	top:0.6rem;
+	right:2.14rem;
+}
+.server-two .server-word{
+    top:2.32rem
+  ;
+	left:2.4rem;
+}
+/* 定位 3*/
+.server-three .server-pic{
+	top:1.07rem;
+	left:0.65rem;
+}
+.server-three .server-spic{
+	top:1.41rem;
+	left:3.06rem;
+}
+.server-three .server-word{
+    top:2.29rem
+  ;
+	left:2.6rem;
+}
+/* 定位 4*/
+.server-four .server-pic{
+	top:0.6rem;
+	left:2.7rem;
+}
+.server-four .server-spic{
+	top:0.02rem;
+	left:1.67rem;
+}
+.server-four .server-word{
+    top:1.82rem;
+	left:1.05rem;
+}
+

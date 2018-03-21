@@ -1,0 +1,713 @@
+﻿/* 公共标题 */
+.publicSection h5{
+	color: #666;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: normal;
+}
+.publicSection h5 b{
+	font-weight: normal;
+	font-size: 0.36rem;
+	position: relative;
+}
+.publicSection h5 span{
+	position: absolute;
+	background: url(i/aboutUs_icon.png) no-repeat 0 0;
+	height: 0.34rem;
+	width: 0.16rem;
+	background-size: 100% 100%;
+	display: inline-block;
+	top: 0.06rem;
+	left: -0.32rem;
+}
+.publicSection h5 i{
+	position: absolute;
+	background: url(i/aboutUs_icon.png) no-repeat 0 0;
+	height: 0.34rem;
+	width: 0.16rem;
+	background-size: 100% 100%;
+	margin-right: 0.32rem;
+	display: inline-block;
+	top: 0.06rem;
+	right: -0.65rem;
+}
+.publicSection .aboutUsText{
+	position: relative;
+	text-align: center;
+	font-size: 0.26rem;
+	color: #333;
+	line-height: 1.06rem;
+}
+.publicSection .aboutUsText i{
+	position: relative;
+	font-style: normal;
+}
+.publicSection .aboutUsText span{
+	position: absolute;
+	background:url(i/aboutUs_yuan.png) no-repeat 0 0;
+	height: 0.15rem;
+	width: 0.15rem;
+	background-size: 100% 100%;
+	display: inline-block;
+	top: 0.1rem;
+	left: -0.33rem;
+}
+/* 关于我们 */
+.aboutUs{
+	background: url("../images/aboutUs_bg.png") no-repeat;
+	background-size: cover;
+}
+.aboutUs .aboutUsContent{
+	width: 12rem;
+	margin: 0 auto;
+	padding-top: 1.75rem;
+	padding-bottom: 0.73rem;
+}
+.aboutUs .aboutUsContent .aboutUsTheme {
+	margin-top: 0.21rem;
+	overflow: hidden;
+
+}
+.aboutUsTheme2 {
+	margin-top: 0.7rem!important;
+	overflow: hidden;
+}
+.aboutUsTheme2 img{
+	display: block;
+	height:3.5rem; 
+	width:6.5rem;
+	float: left !important;
+	margin-left: 0.92rem;
+	margin-right: 0!important;
+
+}
+.aboutUs .aboutUsContent .aboutUsTheme img{
+	display: block;
+	max-height:3.5rem; 
+	max-width:6.5rem;
+	float: right;
+	margin-right: 1.04rem;
+
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop{
+	padding-top: 0.55rem;
+	float: left;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom{
+	float: right;
+	text-align: right;
+	
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop span{
+	position: relative;
+	color: #333;
+	font-size:0.26rem;
+	line-height: 0.35rem;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop p{
+	color: #777;
+	font-size: 0.18rem;
+	line-height: 0.27rem;
+}
+.textLeft{
+	text-align: left;
+	width: 3.45rem;
+	white-space: pre-wrap;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop b{
+	width: 0.56rem;
+	height: 0.02rem;
+	background: #333;
+	display:inline-block;
+	margin-top: 0.15rem;
+	margin-bottom: 0.27rem;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom b{
+	text-align: right;
+	margin-bottom: 0.21rem;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop span i{
+	position: absolute;
+	top: 50%;
+	right: -0.56rem;
+	width: 0.56rem;
+	height: 0.02rem;
+	background: #333;
+	display:block;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom span i{
+	left: -0.56rem;
+}
+
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop .Introduction{
+	color: #929292;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+}
+.Introduction2{
+	color: #929292;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+	display: none;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom .aboutUsThemeLink{
+	float: right;
+}
+
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop .aboutUsThemeLink{
+	height: 0.6rem;
+	width: 2.3rem;
+	color: #fff;
+	background:#313131;
+	display: block;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.2rem;
+	margin-top: 0.29rem;
+	text-decoration: none;
+}
+.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop .aboutUsThemeLink i{
+	height: 0.21rem;
+	width: 0.31rem;
+	background: url(../images/jiantou.png) no-repeat  0 0;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-left: 0.33rem;
+    position: relative;
+    top: 0.03rem;
+}
+/* 团队优势 */
+.team{
+	background: url("../images/flower.png") no-repeat;
+	background-size: cover;
+}
+.teamContent{
+	width: 12rem;
+	margin: 0 auto;
+	padding-top: 1.75rem;
+	background: #3b3b3b;
+	padding-bottom: 1.34rem;
+}
+.teamColor h5{
+	color: #fff!important;
+}
+.teamColor h5 i{
+	background:url(i/tean_icon.png) no-repeat 0 0!important;
+	background-size: 100% 100%!important;
+}
+.teamColor h5 span{
+	background:url(i/tean_icon.png) no-repeat 0 0!important;
+	background-size: 100% 100%!important;
+}
+.teamColor .aboutUsText span{
+	height: 0.17rem;
+	width: 0.17rem;
+	background:url(i/team_yuan.png) no-repeat 0 0!important;
+	background-size: 100% 100%!important;
+}
+.teamColor .aboutUsText i{
+	color: #fff;
+}
+.teamLeft{
+	float: left;
+}
+.teamLeft img{
+	width: 5rem;
+	height: 3.24rem;
+	display: block;
+}
+.teamLeft p{
+	color: #fff;
+	font-size: 0.2rem;
+	line-height: 0.65rem;
+}
+.teamLeft span{
+	margin-top: 0.5rem;
+	display: block;
+}
+.teamLeft span i{
+	color: #fff;
+	font-size: 0.16rem;
+	display: block;
+	font-style: normal;
+	line-height: 0.3rem;
+}
+.teamRight{
+	float: right;
+	overflow: hidden;
+}
+.teamRight span{
+	font-size: 0.2rem;
+	color: #fff;
+	line-height: 0.81rem;
+}
+.teamRight .teamRightTop{
+	overflow: hidden;
+}
+.teamRight .teamRightL{
+	float: left;
+	margin-right: 0.45rem;
+}
+.teamRight .teamRightL img{
+	height: 2rem;
+	width: 3rem;
+	display: block;
+}
+.teamRight .teamRightR img{
+	height: 2rem;
+	width: 3rem;
+	display: block;
+}
+.teamRight .teamRightR{
+	float: right;
+}
+.teamRight .teamRightBottom{
+	margin-top: 0.42rem;
+}
+.teamRight .teamRightBottom img{
+	width: 6.5rem;
+	height: 2.4rem;
+	display: block;
+}
+.teamRight .teamRightBottom span{
+	line-height: 0.6rem;
+}
+@media screen and (max-width: 767px) {
+	.Introduction2{
+		display: none;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme img{
+		margin-right: 0.92rem;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop{
+		margin-left: 0.2rem;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop p{
+		width: 3.45rem;
+		white-space: pre-wrap;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom{
+		margin-right: 0.2rem;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop .Introduction{
+		width: 3.45rem;
+   		white-space: pre-wrap;
+	}
+	.teamRight .teamRightL{
+		float: left;
+		margin-right: 0;
+	}
+	.teamLeft{
+		width: 40%;
+	}
+	.teamRight{
+		width: 55%;
+	}
+	.teamRight .teamRightR{
+		float: right;
+	}
+	.teamRight span{
+		width: 3rem;
+		display: block;
+		white-space: pre-wrap;
+	}
+	.teamRight .spanCLa{
+		line-height: 0.3rem;
+		margin-top: 0.25rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+	.aboutUs{
+		background: #f6f6f6;
+	}
+	.aboutUs .aboutUsContent{
+		width: 100%;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme {
+		margin-top: 0.21rem;
+		overflow: hidden;
+	
+	}
+	.aboutUsTheme2 {
+		margin-top: 0.7rem!important;
+		overflow: hidden;
+	}
+	.aboutUsTheme2 img{
+		width: 48%;
+		height: auto;
+		margin-left: 0;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme img{
+		width: 48%;
+		margin-right: 0;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeTop{
+		width: 52%;
+		padding-top: 0;
+	}
+	.aboutUs .aboutUsContent .aboutUsTheme .aboutUsThemeBottom{
+		width: 45%;
+	}
+	/* 团队优势 */
+	.teamContent{
+		width: 100%;
+	}
+	.teamLeft{
+		width: 40%;
+		height: auto;
+	}
+	.teamLeft  img{
+		width: 100%;
+		height:auto
+	}
+	.teamLeft span{
+		margin-top: 0.3rem;
+	}
+	.teamRight{
+		width: 55%;
+	}
+	.teamRight span{
+		line-height: 0.4rem;
+	}
+	.teamRight .teamRightL{
+		width: 45%;
+		margin-right: 0;
+	}
+	.teamRight .teamRightL img{
+		height: auto;
+		width: 100%;
+	}
+	.teamRight .spanCLa{
+		line-height: 0.2rem;
+		margin-top: 0.08rem;
+		display: block;
+	}
+	.teamRight .teamRightR img{
+		height: auto;
+		width: 100%;
+	}
+	.teamRight .teamRightR{
+		width: 45%;
+		float: right;
+	}
+	.teamRight .teamRightBottom{
+		margin-top: 0.42rem;
+	}
+	.teamRight .teamRightBottom img{
+		width:100%;
+		height: auto;
+	}
+	.teamRight .teamRightBottom span{
+		line-height: 0.6rem;
+	}
+}
+
+
+
+
+
+/*合作伙伴 联系我们*/
+.i7{
+	background: url(i/i7bg.png) 0 0  no-repeat;
+	background-size: 100% 100%; 
+}
+.i7content{
+	padding-top: 1.75rem;
+	width:85%;
+	margin: 0 auto;
+}
+.i7c_title{
+	width: 2rem;
+	height:0.84rem;
+	margin: 0 auto;
+	color:#111;
+	font-size: 0.36rem;
+	line-height: 0.84rem;
+	text-align: center;
+	padding: 0 0.21rem;
+}
+.i7c_titlel{
+	float: left;
+}
+.i7c_titler{
+	float: right;
+}
+.i7c_p{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #111;
+	line-height: 0.48rem;
+	margin:0.21rem auto;
+}
+.i7c_p span{
+	display: inline-block;
+	background: url(i/dot.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width:0.15rem;
+	height:0.15rem;
+	margin-top: 0.19rem;
+	margin-right:0.18rem;
+}
+.i7c_pp{
+	text-align: center;
+	font-size: 0.36rem;
+	color: #333;
+	line-height: 0.87rem;
+	margin-bottom: 0;
+	padding-bottom:0.21rem;
+}
+.i7c_factory{
+	margin: 1.56rem auto 0;
+	width:12rem;
+	height: 6.9rem;
+	overflow: hidden;
+}
+.i7c_factory ul{
+	width:12.71rem;
+}
+
+.i7c_factory ul li{
+	width:1.83rem;	
+	float:left;
+	height:1.3rem;
+	margin-right:0.71rem; 
+	margin-bottom:0.88rem;	
+}
+.i7c_factory ul li img{
+	width: 100%;
+	display: block;
+	transition: all 0.3s; 
+}
+.i7c_factory ul li img:hover{
+	 transform: scale(1.1); 
+}
+.i7c_factory ul li .i7c_factoryImgl{
+	display: block;
+}
+.i7c_factory ul li .i7c_factoryImgr{
+	display: none;
+}
+.i7c_factory ul li:hover{
+	cursor: pointer;
+}
+.i7c_factory ul li:hover .i7c_factoryImgr{
+	display: block;
+}
+.i7c_factory ul li:hover .i7c_factoryImgl{
+	display: none;
+}
+
+
+.i8{
+	height: 3rem;
+	position: relative;
+}
+#allmap{
+	height: 6.44rem;
+	width: 100%;
+}
+#allmap img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.zhezhao{
+	width: 100%;
+	height:6.44rem;
+	top: 0;
+	position: absolute;
+	background-color: rgba(19,18,18,0.53);
+}
+.zhezhao_con{
+	width:11.3rem;
+	margin: 0 auto;
+}
+
+.zhezhao_left{
+	float: left;
+	width: 7.32rem;
+	margin-top: 0.88rem;
+}
+.zhezhao_left textarea,input{
+	box-sizing: border-box;
+	border: 1px solid #fff;	
+	-webkit-appearance:none;
+  	-moz-appearance: none;
+  	border-radius: 0;
+	padding: 0.18rem auto;
+	font-size: 0.18rem;
+	background-color:rgba(255,255,255,0); 
+}
+
+.zhezhao_left .a{
+	padding-top: 0.2rem;
+	width:100%;
+	height: 1.98rem;
+}
+
+.zhezhao_left .namePhone{
+	margin-top: 0.1rem;
+	width: 100%;
+}
+.zhezhao_left .b{
+	float: left;
+	width:47.5%;
+	height: 0.6rem;	
+	margin-right: 5%;
+}
+.zhezhao_left .c{
+	width:47.5%;
+	height: 0.6rem;
+	float: left;
+}
+.zhezhao_left .d{
+	cursor: pointer;
+	width: 2rem;
+	height: 0.6rem;
+	margin-top:0.5rem; 
+	background-color: #313131;
+	border: none;
+	color: #eee;
+	font-size: 0.18rem;
+	text-align: center;
+}
+.zhezhao_left .d:hover{
+	color:#333;
+	background-color: white;
+}
+.zhezhao_right{
+	width: 2.4rem;
+	float: right;
+	margin-top:0.88rem;
+}
+.zhezhao_right p{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.2rem;
+	color: #eee;
+}
+.zhezhao_right p img{
+	float: left;
+	width: 0.43rem;
+	height: 0.43rem;
+	margin-top: 0.1rem;
+	margin-right: 0.05rem;
+}
+.zhezhao_right p span.qq{
+	background:url(i/qq.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zhezhao_right p span.wechat{
+	background:url(i/wechat.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zhezhao_right p span.phone{
+	background:url(i/phone.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zhezhao_right h4{
+	font-weight: normal;
+	color: #fefefe;
+	font-size: 0.18rem;
+	line-height: 0.58rem;
+	height: 0.58rem;
+	text-align: center;
+}
+.zhezhao_right .erweima{
+	display: block;
+	margin-left: 0.4rem;
+	width: 1.60rem;
+	height: 1.60rem;
+	padding:0.05rem;
+	background:url(i/erweima.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zhezhao_right .erweima img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+@media screen and (max-width: 767px) {
+	.zhezhao_left{
+		width: 57%;
+	}
+	.zhezhao_right{
+		width: 38%;
+	}
+	.zhezhao_right .erweima{
+		margin-top: 0.2rem;
+		margin-left: 1.4rem;
+	}
+}
+
+.zhezhaoL_input{
+	height: 1.98rem;
+	padding-left:5%; 
+	color: #eee;
+}
+
+textarea,input::-webkit-input-placeholder{
+	color: #eee;
+	font-size: 0.16rem;
+	}    /* 使用webkit内核的浏览器 */
+textarea,input:-moz-placeholder{
+	color: #eee;
+	font-size: 0.16rem;
+	}                  /* Firefox版本4-18 */
+textarea,input::-moz-placeholder{
+	color: #eee;
+	font-size: 0.16rem;
+	}                  /* Firefox版本19+ */
+textarea,input:-ms-input-placeholder{
+	color: #eee;
+	font-size: 0.16rem;
+	}           /* IE浏览器 */
+.footer{
+	padding-top: 0.46rem;
+	background-color: #313131;
+}
+.footer_p{
+	height: 0.2rem;
+}
+.footer_content{
+	text-align: center;
+	width:100%; 
+	color: #fefefe;
+	font-size: 0.16rem;
+	line-height: 0.39rem;
+}
+.footer_content a{
+	display: inline-block;
+	color: #fefefe;
+	font-size: 0.16rem;
+	line-height: 0.39rem;
+}
+@media screen and (max-width: 767px) {
+	.footer{
+		padding-bottom: 0.4rem;
+	}
+	.footer_content{
+		line-height: 0.45rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+	.zhezhao_con{
+		width: 80%;
+	}
+	.zhezhao_left{
+		width: 57%;
+	}
+	.zhezhao_right{
+		width: 38%;
+	}
+	.zhezhao_right .erweima{
+		margin-top: 0.2rem;
+		margin-left: 23%;
+	}
+	.footer{
+		padding-bottom: 0.4rem;
+	}
+	.footer_content{
+		line-height: 0.45rem;
+	}
+}

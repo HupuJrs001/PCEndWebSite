@@ -1,0 +1,201 @@
+/* nav start */
+  /* header */
+*{
+margin: 0;
+padding: 0;
+user-select: none;
+}
+ul, li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.nav{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 0.45rem;
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 10;
+}
+.nav_content{
+	width: 12.45rem;
+	margin: 0 auto;
+}
+.nav_logo{
+	margin-right: 0.45rem;
+}
+.nav_logo a{
+	display: block;
+}
+.nav_logo img{
+	width: 2.8rem;
+	height: 0.9rem;
+	display: block;
+}
+#nav_list ul li{
+	float: left;
+	margin-left: 0.35rem;
+	position: relative;
+}
+#nav_list ul li a{
+	display: block;
+	color: #ffffff;
+	font-size: 0.2rem;
+	line-height: 0.9rem;
+}
+.activeLine{
+	width: 100%;
+	background: #ffffff;
+}
+@media screen and (max-width: 1088px) {
+	#nav_list ul li{
+		margin-left: 0.2rem;
+	}
+}
+.topLine{
+	height: 0.04rem;
+	position: absolute;
+	top: -0.45rem; left: 0;
+}
+/* nav end */
+
+/* body中主体div */
+html,body{
+	height: 100%;
+}
+.server-detail{
+	
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background: url("../images/background.png") no-repeat;
+	background-size: cover;
+}
+/* 内容区域  */
+.ym-net-container{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	
+}
+/* 蓝色的圆 */
+.ym-net-circle{
+	width:5.0rem;
+	height:5.0rem;
+	background:#1e9be9;
+	border-radius:50% 50%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	position:absolute;
+
+}
+/* 关闭标签 */
+.ym-net-eror{
+	position:absolute;
+	right:0.57rem;
+	top:0.47rem;
+	width:0.4rem;
+	height:0.4rem;
+
+    line-height:0.4rem;
+    text-align:center;
+    font-size:0.35rem;
+	border-radius:50% 50%;
+	cursor: pointer;
+	overflow: hidden;
+
+}
+.ym-net-eror img{
+	width: 100%;
+	height: 100%;
+}
+/* 中间所有字体的包裹div */
+.ym-net-word{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: .7rem;
+	border-radius:50% 50%;
+	overflow:hidden;
+
+}
+/* 字体段落的公共样式 */
+.ym-net-circle p{
+	width: 100%;
+	text-align:center;
+	margin:0;
+	padding:0;
+	color:#fcfdfe;
+
+}
+/* 标题 */
+.datail-title{
+	height:0.5rem;
+	font-size:0.30rem;
+	line-height: 0.5rem;
+	font-weight:600;
+	color:#fcfdfe;
+
+
+}
+/* 小标题 */
+.datail-stitle{
+	font-size:0.1rem;
+	line-height:0.18rem;
+	font-weight:350;
+	text-align:center;
+}
+/* 居中的文字 */
+.ym-p-center{
+	font-size:0.12rem;
+	line-height:0.22rem;
+	text-align:center;
+
+}
+/* 查看案例 */
+.ym-demo{
+  
+  width:1.5rem;
+  height:0.4rem;
+  background:#fcfdfe;
+  border-radius:0.2rem;
+  line-height:0.4rem; 
+  text-align:center;
+  margin:0.4rem auto 0;
+}
+.ym-demo a{
+	text-decoration:none;
+	display:block;
+  width:1.5rem;
+  height:0.4rem;
+  font-size:0.25rem;
+  color:#63b6ef;
+}
+@media screen and (max-width: 1400px) {
+	.ym-net-word{
+		padding-top: 0.8rem;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.ym-p-center{
+		font-size: 12px;
+		transform: scale(0.9)
+	}
+	
+}

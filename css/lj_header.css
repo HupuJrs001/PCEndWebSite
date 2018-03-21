@@ -1,0 +1,237 @@
+/* header */
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+ul, li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* iconfont start */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont_index.eot');
+    src: url('../fonts/iconfont_index.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont_index.woff') format('woff'),
+    url('../fonts/iconfont_index.ttf') format('truetype'),
+    url('../fonts/iconfont_index.svg#iconfont') format('svg');
+}
+.iconfont{
+font-family:"iconfont" !important;
+font-size:16px;font-style:normal;
+-webkit-font-smoothing: antialiased;
+-webkit-text-stroke-width: 0.2px;
+-moz-osx-font-smoothing: grayscale;
+}
+/* iconfont end */
+.header{
+    width: 100%;
+}
+.header_content{
+    height: 10.80rem;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0.45rem;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 9;
+}
+.nav_content{
+    width: 12.45rem;
+    margin: 0 auto;
+}
+.nav_logo{
+    margin-right: 0.45rem;
+}
+.nav_logo a{
+    display: block;
+}
+.nav_logo img{
+    width: 2.8rem;
+    height: 0.9rem;
+    display: block;
+}
+#nav_list ul li{
+    float: left;
+    margin-left: 0.35rem;
+    position: relative;
+}
+#nav_list ul li a{
+    display: block;
+    color: #ffffff;
+    font-size: 0.2rem;
+    line-height: 0.9rem;
+}
+@media screen and (max-width: 1088px) {
+    #nav_list ul li{
+        margin-left: 0.2rem;
+    }
+}
+.topLine{
+    height: 0.04rem;
+    position: absolute;
+    top: -0.45rem; left: 0;
+}
+.navIndex{
+    background: #ffffff;
+}
+.header_carousel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+.hd_carousel_list{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header_carouselItem{
+    width: 100%;
+    height: 100%;
+    position: relative
+    /* cursor: pointer; */
+}
+.header_carouselItem a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* .header_carouselItem:nth-child(1){
+    background: url('../images/2.png') no-repeat;
+    background-size: cover;
+}
+.header_carouselItem:nth-child(2){
+    background: url('../images/2.png') no-repeat;
+    background-size: cover;
+}
+.header_carouselItem:nth-child(3){
+    background: url('../images/2.png') no-repeat;
+    background-size: cover;
+}
+.header_carouselItem:nth-child(4){
+    background: url('../images/2.png') no-repeat;
+    background-size: cover;
+} */
+.header_carouselItem a img{
+    width: 100%;
+    height: 100%;
+}
+/* 轮播按钮 */
+.btnArea{
+    width: 100%;
+    position: absolute;
+    bottom: 0.28rem;
+    z-index: 9;
+}
+.btnList{
+    width: 3.36rem;
+    margin: 0 auto;
+}
+.btns{
+    width: 1rem;
+    height: 0.03rem;
+    float: left;
+    cursor: pointer;
+    background: #626262;
+}
+.btnone{
+    background: #ffffff;
+}
+.btntwo{
+    margin-left: 0.18rem;
+}
+.btnthree{
+    margin-left: 0.18rem;
+}
+#mainCanvas{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 2.45rem; left: 10.9rem; 
+}
+.company_enounce{
+    position: absolute;
+    top: 3.74rem; left: 3.57rem;
+    color: #ffffff;
+    font-family: "宋体";
+}
+.enounceTop{
+    font-size: 0.36rem;
+    margin-bottom: 0.2rem;
+}
+.enounceMiddle{
+    font-size: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+.enounceMiddle span{
+    font-size: 0.76rem;
+}
+.enounceDown{
+    font-size: 0.29rem;
+    padding: 0.22rem;
+    border: 0.02rem solid #ffffff;
+}
+.circle{
+    width: 4.77rem;
+    height: 4.67rem;
+    border-radius: 50%;
+    background:url("../images/circle.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2.4rem; left: 11.05rem;
+}
+#sideBar{
+    font-size: 0.2rem;
+    position: fixed;
+    bottom: 0.2rem; right: -0.8rem;
+    z-index: 99;
+}
+#sideBar ul li{
+    width: 0.6rem;
+    color: #000000;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    text-align: center;
+    border: 0.01rem solid #000000;
+    border-radius: 0.6rem;
+    margin-top: 0.1rem;
+    cursor: pointer;
+    position: relative;
+}
+.contactInfomation{
+    width: 2.11rem;
+    font-size: 0.15rem;
+    line-height: 0.6rem;
+    border: 0.01rem solid #000000;
+    border-radius: 0.6rem;
+    position: absolute;
+    top: -0.01rem; left: 0.6rem;
+    background: #000000;
+    color: #ffffff;
+    z-index: -1;
+    padding-right: 0.6rem;
+    display: none;
+    box-sizing: border-box;
+    text-align: right;
+}

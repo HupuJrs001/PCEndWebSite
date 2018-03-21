@@ -1,0 +1,150 @@
+ 	
+
+ 		
+ 	
+ 		*{
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        ul, li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float:right;
+        }
+        .nav{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 45px;
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 9;
+        }
+        .nav_content{
+            width: 1245px;
+            margin: 0 auto;
+        }
+        .nav_logo{
+            margin-right: 45px;
+        }
+        .nav_logo a{
+            display: block;
+        }
+        .nav_logo img{
+            width: 280px;
+            height: 90px;
+            display: block;
+        }
+        #nav_list ul li{
+            float: left;
+            margin-left:35px;
+            position: relative;
+        }
+        #nav_list ul li a{
+            display: block;
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 90px;
+        }
+        .activeLine{
+            width: 100%;
+            background: #ffffff;
+        }
+        @media screen and (max-width: 1280px) {
+            #nav_list ul li a{
+                 font-size: 18px;
+            }
+            .nav_content{
+            width: 1181px;
+        	}
+        }
+        .topLine{
+            height: 4px;
+            position: absolute;
+            top: -45px; left: 0;
+        }
+
+/* 整体页面的样式 */
+.office-main{
+	width:100%;
+	height:100%;
+	background:url("../images/办公环境.png");
+}
+/* $.load加载的内容陈放区域的高度 不设置会塌陷 */
+
+/* 主体图片的样式 */
+.office-pic{
+	width:1200px;
+	height:auto;
+	margin:auto;
+	padding-top:2.78rem;
+	padding-bottom:80px;
+}
+/* 标题所在的div样式 */
+.office-title{
+ width:1200px;
+ height: 160px;	
+
+}
+.office-title h2{
+	line-height:50px;
+   font-size:31px;
+    color:#fff;
+}
+.office-title h3{
+	font-weight:400;
+	line-height:30px;
+   font-size:24px;
+    color:#fff;
+}
+/* 上面一排图片的公共样式 */
+.office-envir-up{
+  width:1200px;
+  height:278px;
+}
+.office-envir-up div{
+	float:left;
+	width:240px;
+	height:278px;
+}
+.office-word-ym{
+	box-sizing: border-box;
+	padding-top:120px;
+}
+.office-word-ym h3{
+	font-weight:200;
+  line-height:40px;
+  text-align:center;
+  font-size:27px;
+  color:#fff;
+}
+.office-word-ym h4{
+	font-weight:370;
+	line-height:24px;
+  text-align:center;
+	font-size:13px;
+	 color:#fff;
+}
+/* 下面一排图片的公共样式 */
+.office-envir-down{
+	width:1200px;
+    height:281px;
+}
+.office-envir-down div{
+	float:left;
+  width:600px;
+  height:281px;
+  overflow:hidden;
+}

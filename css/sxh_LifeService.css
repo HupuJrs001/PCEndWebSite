@@ -1,0 +1,163 @@
+/* nav start */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 10;
+}
+.nav_content{
+    width: 1245px;
+    margin: 0 auto;
+}
+.nav_logo{
+    margin-right: 45px;
+}
+.nav_logo a{
+    display: block;
+}
+.nav_logo img{
+    width: 280px;
+    height: 90px;
+    display: block;
+}
+#nav_list ul li{
+    float: left;
+    margin-left: 35px;
+    position: relative;
+}
+#nav_list ul li a{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 90px;
+}
+.activeLine{
+    width: 100%;
+    background: #ffffff;
+}
+@media screen and (max-width: 1280px) {
+    #nav_list ul li a{
+        font-size: 18px;
+    }
+    .nav_content{
+        width: 1181px;
+    }
+}
+.topLine{
+    height: 4px;
+    position: absolute;
+    top: -45px; left: 0;
+}
+/* nav end */
+
+.sxh_LifeService_background{
+	background: url(../images/background_life.png) center center no-repeat;
+	padding-bottom: 180px;
+}
+.sxh_LifeService_head{
+	position: absolute;
+}
+.sxh_clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.sxh_LifeService_box{
+	width: 100%;
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+}
+.sxh_LifeService_main{
+	margin: 0 auto;
+	width: 1200px;
+	padding-top: 294px;
+	color: #fff;
+}
+.sxh_LifeService_title{
+	font-size: 38px;
+	line-height: 1;
+	margin-left: 7px;
+}
+.sxh_LifeService_title2{
+	font-size: 24px;
+	line-height: 1;
+	margin-left: 12px;
+	margin-top: 7px;
+}
+.sxh_LifeService_content{
+	margin-top: 103px;
+}
+.sxh_LifeService_content_left_img1,.sxh_LifeService_content_left_img2{
+	float: left;
+}
+.sxh_LifeService_content_left_img2>img{
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.sxh_LifeService_content>div{
+	float: left;
+}
+.sxh_LifeService_content_right{
+	margin-left: 108px;
+	width: 414px;
+	text-align: center;
+}
+.sxh_LifeService_content_right_title{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 1;
+	margin-top: 46px;
+	position: relative;
+}
+.sxh_LifeService_content_right_title>span{
+	width: 52px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+}
+.sxh_LifeService_content_right_title_decorate1{
+	left: 0px;	
+	margin-left: -59px;
+}
+.sxh_LifeService_content_right_title_decorate2{
+	right: 0px;
+	margin-right: -59px;
+}
+.sxh_LifeService_content_right_content{
+	font-size: 18px;
+	line-height: 31px;
+	text-align: left;
+	margin-top: 60px;
+}

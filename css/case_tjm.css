@@ -1,0 +1,409 @@
+//还原默认
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+    padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0;
+	padding-left: 0
+}
+.case_tjm{
+    background: url("../images/background01.png") no-repeat 0 0 ;
+    background-size: 100% 8.17%;
+    background-color: #29292b;
+}
+.caseCen_tjm{
+	width: 12.0rem;
+	margin: 0 auto;
+}
+.caseTitle_tjm{
+    color: #fff;
+    padding-top: 5.3rem;
+    position: relative;
+}
+.pic1_tjm{
+	width: 2.63rem;
+	height: 2.58rem;
+    position: absolute;
+    left: 7rem;
+    top: 6.9rem;
+}
+.pic1_tjm img{
+	width: 2.63rem;
+	height: 2.58rem;
+}
+.Title1_tjm{
+	text-align: right;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	font-size: 1.0rem;
+}
+.Title1Line_tjm{
+	width: 370px;
+	height: 0.1rem;
+	border-bottom: 0.1rem solid #fff;
+	margin-left:6.9rem;
+	padding-top: 0.1rem;
+}
+.Title2_tjm{
+	padding-top:1.7rem;
+	padding-bottom: 0.5rem;
+}
+.Title2_tjm p{
+	text-align: left;
+	height: 0.60rem;
+	line-height: 0.60rem;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.news_tjm{
+	width: 12.0rem;
+	background: #fa4848
+}
+.news1_tjm{
+	border-top: 3.6rem solid #fff;
+	border-right: 12.0rem solid transparent;
+}
+.new2_tjm{
+	width: 12.0rem;
+	height: 7.3rem;
+	position: relative;
+}
+.pic2_tjm{
+	width: 4.94rem;
+	height:  10.39rem;
+	position: absolute;
+	top: -3.21rem;
+	left: 7rem;
+}
+.pic2_tjm img{
+	width: 4.94rem;
+	height:  10.39rem;
+}
+.news21_tjm{
+	position: absolute;
+	top: -2.4rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	font-size: 0.9rem;
+	color: #fa4848;
+	text-align: left;
+	text-indent: 0.4rem;
+}
+.news22_tjm{
+	width: 12.0rem;
+	padding-top: 0.9rem;
+}
+.news221_tjm{
+	height: 0.7rem;
+	line-height: 0.7rem;
+	text-indent: 0.45rem;
+	font-size: 0.45rem;
+	color: #fff;
+}
+.news222_tjm{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-indent: 0.45rem;
+	font-size: 0.30rem;
+	color: #fff;
+}
+.news23_tjm{
+	width: 12.0rem;
+	padding-top: 0.25rem;
+}
+.kind1_tjm{
+	border-top: 3.5rem solid #fa4848;
+	border-right: 12.0rem solid transparent;
+}
+.kind2_tjm{
+	width: 12.0rem;
+	height: 16.9rem;
+	overflow: hidden;
+	background: #3c3c3c;
+}
+.kind2_tjm li{
+	float: left;
+}
+.kind21_tjm{
+	width: 8.39rem;
+	height: 5.76rem;
+	background: url("../images/xian.jpg") repeat-x 0 0.01rem;
+	background-size: 100% 100%;
+	position: relative;
+}
+.pic3_tjm{
+	position: absolute;
+	width: 4.54rem;
+	height: 9.82rem;
+	top: 2.04rem;
+	left: 1.87rem
+}
+.pic3_tjm img{
+	width: 4.54rem;
+	height: 9.82rem;
+}
+.kind22_tjm{
+	width: 2.83rem;
+	height: 5.76rem;
+	background: url("../images/kind1.jpg") no-repeat 0 0;
+	background-size: cover;
+}
+.kind23_tjm{
+	width: 0.78rem;
+	height: 5.76rem;
+	background: url("../images/dixian.jpg") repeat-x 0 0;
+	background-size: cover;
+}
+.kind24_tjm{
+	border-bottom: 7.65rem solid #fff;
+	border-right: 12.0rem solid transparent;
+}
+.kind3_tjm{
+	width: 12.0rem;
+	height: 40.05rem;
+	position: relative;
+	background: #fff
+}
+.pic4_tjm{
+	width: 6.79rem;
+	height: 6.96rem;
+	position: absolute;
+	top: 2.1rem;
+	left: 0.2rem;
+}
+.pic4_tjm img{
+	width: 6.79rem;
+	height: 6.96rem;
+}
+.pic5_tjm{
+	width: 5.61rem;
+	height: 15.78rem;
+	position: absolute;
+	right: 0.1rem;
+	top: 5rem;
+}
+.pic5_tjm img{
+	width: 5.61rem;
+	height: 15.78rem;
+}
+.pic6_tjm{
+	width: 5.28rem;
+	height: 1.47rem;
+	position: absolute;
+	top: 15.5rem;
+	left: 0.3rem;
+}
+.pic6_tjm img{
+	width: 5.28rem;
+	height: 1.47rem;
+}
+.pic7_tjm{
+	width: 4.26rem;
+	height: 11.34rem;
+	position: absolute;
+	top: 23.8rem;
+	left: 2.0rem;
+}
+.pic7_tjm img{
+	width: 4.26rem;
+	height: 11.34rem;
+}
+.pic8_tjm{
+	width: 9.93rem;
+	height: 7.57rem;
+	position: absolute;
+	top: 39.24rem;
+	left: 1.45rem;
+}
+.pic8_tjm img{
+	width: 9.93rem;
+	height: 7.57rem;
+}
+.Home_tjm{
+	position: absolute;
+	top: -1.55rem;
+    color: #fa4848
+}
+.Home1_tjm{
+	border-left:0.06rem solid #fa4848;
+    margin-left: 0.52rem;
+}
+.Home11_tjm{
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.55rem;
+}
+.Home12_tjm{
+	height: 0.45rem;
+	line-height: 0.45rem;
+	font-size: 0.35rem
+}
+.Home13_tjm{
+	margin-left: 0.65rem;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	font-size: 0.30rem;
+	color: #c0c0c0;
+}
+.Column{
+	width: 12.0rem;
+	height: 11.5rem;
+	padding-top: 1.82rem;
+}
+.Column_tjm{
+	color:#fa4848;
+	margin-left: 7.0rem;
+}
+.Headlines{
+	width: 12.0rem;
+	height: 7.9rem;
+}
+.Headlines_tjm{
+	color:#fa4848;
+	margin-left: 0.5rem;
+}
+.Page{
+	width: 12.0rem;
+	height: 15.25rem;
+}
+.Page_tjm{
+	color:#fa4848;
+	margin-left: 1.0rem;
+}
+.Personal{
+    width: 12.0rem;
+	height: 3.59rem;
+}
+.Personal_tjm{
+	color:#fa4848;
+	margin-left: 2.11rem;
+}
+.kind4_tjm{
+	width: 12.0rem;
+	height: 30.05rem;
+	background:#3c3c3c;
+}
+.kind41_tjm{
+	border-top: 6.65rem solid #fff;
+	border-right: 12.0rem solid transparent;
+}
+.kind42_tjm{
+	width: 12.0rem;
+	height: 3.72rem;
+	background: url("../images/kind2.jpg") no-repeat 0 0;
+	background-size: cover;
+}
+.Display{
+	width: 12.0rem;
+	height: 19.6rem;
+	position: relative;
+}
+.pic9_tjm{
+	width: 12.0rem;
+	height: 19.06rem;
+	position: absolute;
+	top: 1.79rem;
+}
+.pic9_tjm img{
+	width: 12.0rem;
+	height: 19.06rem;
+}
+.Display_tjm{
+	color:#fa4848;
+	margin-left:0.5rem;
+	margin-top: 0.1rem;
+}
+.kind5_tjm{
+	width: 12.0rem;
+	height: 13.25rem;
+	background: #fa4848;
+}
+.kind51_tjm{
+    border-top: 6.65rem solid #3c3c3c;
+	border-right: 12.0rem solid transparent;
+}
+.Thank_tjm{
+	width: 12.0rem;
+	height: 6.6rem;
+}
+.Thankfor_tjm{
+	color: #fff;
+	padding-top: 2.0rem;
+}
+.Thankfor1_tjm{
+	text-align: center;
+	line-height: 1.46rem;
+	height: 1.46rem;
+	font-size: 0.8rem;
+}
+.Thankfor2_tjm{
+	text-align: center;
+	line-height: 1.0rem;
+	height: 1.0rem;
+	font-size: 0.5rem;
+}
+.kind6_tjm{
+	width: 12.0rem;
+	height: 8.05rem;
+	background: #fff;
+}
+.maokong_tjm{
+	width: 12.0rem;
+	height: 4.1rem;
+	position: relative;
+}
+.pic10_tjm{
+	width: 9.02rem;
+	height: 2.81rem;
+	position: absolute;
+	top: 0rem;
+	left: 2.2rem;
+}
+.pic10_tjm img{
+	width: 9.02rem;
+	height: 2.81rem;
+}
+.maologo_tjm{
+	width: 12.0rem;
+	height: 2.18rem;
+	background: url("../images/maologo.jpg") no-repeat 0.02rem 0;
+	background-size: cover;
+}
+.maoenter_tjm{
+	width: 12.0rem;
+	height: 1.77rem;
+}
+.enter1_tjm{
+	line-height: 0.83rem;
+	height: 0.83rem;
+	text-align: center;
+	color: #c30f12;
+	font-size: 0.45rem;
+}
+.enter2_tjm{
+	line-height: 0.56rem;
+	height: 0.56rem;
+	text-align: center;
+	color: #adadad;
+	font-size: 0.25rem;
+}
+.enter2_tjm span{
+	border-top: 2px solid #adadad
+}
